@@ -19,8 +19,8 @@ services:
     ports:
       - "15672:15672"
     environment:
-      - RABBITMQ_DEFAULT_USER: guest
-      - RABBITMQ_DEFAULT_PASS: guest
+      - RABBITMQ_DEFAULT_USER=guest
+      - RABBITMQ_DEFAULT_PASS=guest
 
   vproapp:
     image: manugowda9300000/tomcat

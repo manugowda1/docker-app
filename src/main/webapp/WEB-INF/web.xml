@@ -30,7 +30,3 @@
     <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
   </listener>
 </web-app>
-<error-page>
-<error-code>404</error-code>
-<location>/yourLocationToredirect</location>
-</error-page>
